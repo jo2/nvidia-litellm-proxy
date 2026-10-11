@@ -1,0 +1,8 @@
+model_list:
+  - model_name: nvidia-coding
+    litellm_params:
+      model: nvidia_nim/deepseek-ai/deepseek-v4.1-flash
+      api_key: os.environ/NVIDIA_NIM_API_KEY
+
+litellm_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
